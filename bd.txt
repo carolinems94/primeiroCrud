@@ -1,0 +1,14 @@
+COMANDOS USADOS PARA CRIAÇÃO DO BD:
+
+1 - CREATE DATABASE crudfinal;
+
+2 - USE crudfinal;
+    CREATE TABLE alunos(
+    	id INT AUTO_INCREMENT PRIMARY KEY,
+    	nome VARCHAR(50),
+    	sobrenome VARCHAR(100),
+    	dataNasc DATE,
+   	curso VARCHAR(100),
+   	email VARCHAR(100),
+   	senha VARCHAR(100)
+);
